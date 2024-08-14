@@ -1188,11 +1188,11 @@ label {
   padding: 40px 30px;
   overflow-y: auto;
   overflow-x: hidden;
-  /* background: var(--tg-body-background-color); */
-  background-image: url("../img/sidebar-img/1.jpg");
+  background: var(--tg-body-background-color);
+  /* background-image: url("../img/sidebar-img/1.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   /* background-blend-mode: darken;*/
 }
 
