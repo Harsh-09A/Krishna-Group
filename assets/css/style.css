@@ -51,8 +51,10 @@
 :root {
   --tg-body-font-family: "Montserrat", sans-serif;
   --tg-heading-font-family: "Vidaloka", serif;
-  --tg-primary-color: #bd9a68;
+  /* --tg-primary-color: #bd9a68; */
+  --tg-primary-color: #d3a84c;
   --tg-secondary-color: #202020;
+  /* --tg-secondary-color: #ffec95; */
   --tg-body-background-color: #fefffb;
   --tg-secondary-background: #f9faf1;
   --tg-body-font-color: #797978;
@@ -1189,7 +1191,7 @@ label {
   overflow-y: auto;
   overflow-x: hidden;
   /* background: var(--tg-body-background-color); */
-  background: url("../img/sidebar-img/1.jpg");
+  background: url("../img/sidebar-img/1.jpg") !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -4886,7 +4888,7 @@ label {
   width: 150px;
   height: 150px;
   background-color: var(--tg-primary-color);
-  border: 6px solid var(--tg-secondary-color);
+  border: 3px solid var(--tg-secondary-color);
   border-radius: 50%;
   opacity: 0.2;
   z-index: 10;
