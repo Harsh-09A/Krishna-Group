@@ -1009,6 +1009,7 @@ label {
 }
 
 /* sidebar-menu */
+
 .sidebar-menu {
   display: flex;
   flex-direction: column;
@@ -1023,6 +1024,11 @@ label {
   overflow-y: auto;
   overflow-x: hidden;
   background: var(--tg-body-background-color);
+  /* background-image: url("../img/sidebar-img/1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  /* background-blend-mode: darken; */
 }
 .sidebar-menu::-webkit-scrollbar {
   width: 0;
