@@ -2405,8 +2405,16 @@ label {
 } */
 
 .breadcrumb-area {
-  padding: 250px 0 140px;
+  padding: 100px 0px;
   background: var(--tg-gradient-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+#About-section{
+  background-image: url("../img/bg/about-page.jpg") !important;
 }
 
 .breadcrumb-content {
