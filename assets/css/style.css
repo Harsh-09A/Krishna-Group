@@ -2074,6 +2074,14 @@ label {
 /*=============================
 	07. Breadcrumb
 ===============================*/
+
+/* .About-section{
+  background-image: url("../img/banner/banner_img01.jpg") !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+
 .breadcrumb-area {
   padding: 250px 0 140px;
   background: var(--tg-gradient-color);
