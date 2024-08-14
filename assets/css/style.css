@@ -1190,7 +1190,7 @@ label {
   overflow-x: hidden;
   /* background: var(--tg-body-background-color); */
   background: url("../img/sidebar-img/1.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   /* background-blend-mode: darken;*/
