@@ -54,7 +54,7 @@
   /* --tg-primary-color: #bd9a68; */
   --tg-primary-color: #d3a84c;
   --tg-secondary-color: #202020;
-  /* --tg-secondary-color: #ffec95; */
+  --tg-tertiary-color: #ffec95;
   --tg-body-background-color: #fefffb;
   --tg-secondary-background: #f9faf1;
   --tg-body-font-color: #797978;
@@ -3030,7 +3030,7 @@ label {
 
 /* project-details */
 .project-details-area {
-  padding: 250px 0 140px;
+  padding: 50px 0 50px;
   position: relative;
   z-index: 1;
 }
@@ -3130,7 +3130,7 @@ label {
 .gallery-item img {
   border-radius: 16px;
   display: inline-block;
-  height: 785px;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -3217,21 +3217,33 @@ label {
 ===============================*/
 .plan-wrap .nav-tabs .nav-link {
   margin-bottom: 0;
-  background: transparent;
   border: none;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  border-radius: 0;
-  padding: 0 0;
   font-weight: 500;
   font-size: 14px;
-  color: var(--tg-secondary-color);
+  /* background: transparent;
+  border-radius: 0;
+  padding: 0 0;
+  color: var(--tg-secondary-color); */
+
+  background: var(--tg-tertiary-color);
+  border-radius: 8px;
+  padding: 16px 40px;
+  color: var(--tg-black);
+  transition: 0.3s ease-in-out;
 }
 
 .plan-wrap .nav-tabs .nav-item.show .nav-link,
 .plan-wrap .nav-tabs .nav-link.active {
-  color: var(--tg-primary-color);
-  background-color: transparent;
+  /* color: var(--tg-primary-color);
+  background-color: transparent; */
+
+  background: var(--tg-primary-color);
+  border-radius: 8px;
+  padding: 16px 40px;
+  color: var(--tg-white);
+  transition: 0.3s ease-in-out;
 }
 
 .plan-wrap .nav-tabs {
@@ -4307,6 +4319,7 @@ label {
   align-items: center;
   flex-wrap: wrap;
   margin: 0 -12px;
+  justify-content: center;
 }
 
 .newsletter-form .list-wrap li {
@@ -4944,7 +4957,6 @@ label {
   color: #fff;
 }
 
-
 /* Call to action section */
 
 .call-to-action {
@@ -4964,7 +4976,7 @@ label {
   border-radius: 2rem;
   padding: 6.5rem;
   text-align: center;
-  background: linear-gradient(to bottom right,  #173ab7, #5271e0);
+  background: linear-gradient(to bottom right, #173ab7, #5271e0);
 }
 
 .cta-card::before {
@@ -4995,7 +5007,6 @@ label {
   .cta-card__container {
     max-width: 80%;
   }
-
 }
 
 .cta-card__title {
