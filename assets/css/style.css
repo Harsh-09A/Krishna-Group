@@ -3105,12 +3105,14 @@ label {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   font-size: 14px;
-  color: var(--tg-secondary-color);
+  /* color: var(--tg-secondary-color); */
+  color: var(--tg-primary-color);
   font-weight: 500;
 }
 
 .project-info-wrap .info-item .content p span {
   display: block;
+  color: var(--tg-secondary-color);
 }
 
 /*=============================
