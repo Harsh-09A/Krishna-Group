@@ -1,0 +1,95 @@
+@media (min-width:576.98px) {
+    .mob {
+        display: none;
+    }
+
+}
+
+@media (max-width:576.98px) {
+    section.logo img {
+        width: 110px;
+    }
+
+    .img-ani {
+        margin-top: 100px;
+    }
+.connectivity-slider{
+    padding: 23px;
+
+}
+    .info-box-item {
+        margin-bottom: 35px;
+    }
+
+    .why-title h3 {
+        font-size: 31px;
+        line-height: 40px;
+        margin-bottom:10px !important;
+    }
+
+   .why-title{
+         margin-bottom:10px !important;
+    }
+    section {
+        padding: 30px 0;
+    }
+
+
+    .about-us {
+        padding-top: 300px;
+    }
+
+    .connectivity-img img {
+        max-width: 385px;
+        
+    }
+    .connectivity-img {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+}
+
+
+    .home-desktop {
+        background-image: none;
+    }
+
+    .thank-you-content {
+        background-color: #07070766;
+        padding: 1rem;
+    }
+
+    .thank-you-content h6 {
+        color: #0e8f0e;
+    }
+
+    .lead-content h4 {
+        font-size: 15px;
+        font-weight: 600;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        line-height: 1.3;
+        margin-bottom: 4px;
+    }
+
+    .heading h3 {
+        font-size: 18px;
+        text-transform: capitalize;
+        line-height: 1.2;
+    }
+
+    button.accordion-button {
+        padding: 6px 10px;
+    }
+
+    .treatment-box h1 {
+        font-size: 37px;
+        color: #0073ae;
+    }
+
+    .thank-you-logo img {
+        width: 100px;
+    }
+}
