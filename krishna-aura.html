@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -324,7 +324,7 @@
                     <i class="flaticon-008-money-bag"></i>
                   </div>
                   <div class="content">
-                    <p>Price Range <span>₹ 1.07 Cr - ₹ 1.82 Cr</span></p>
+                    <p>Price Range <span>₹ 1.25 Cr - ₹ 2.10 Cr</span></p>
                   </div>
                 </li>
                 <li class="info-item">
@@ -340,7 +340,7 @@
                     <i class="flaticon-016-puzzle"></i>
                   </div>
                   <div class="content">
-                    <p>Flat Size <span>1050 - 1850 Sqft</span></p>
+                    <p>Flat Size <span>1075 - 1850 Sqft</span></p>
                   </div>
                 </li>
                 <li class="info-item">
@@ -600,7 +600,11 @@
                                 minlength="10"
                                 maxlength="10"
                                 pattern="[0-9]{10}"
-                                oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                                oninvalid="
+                                  setCustomValidity(
+                                    'Please enter a valid phone number. e.g., 12345-67890',
+                                  )
+                                "
                                 oninput="setCustomValidity('')"
                                 placeholder="Phone number"
                                 required="required" />
