@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -882,37 +882,50 @@
                   </p>
                 </header>
                 <div class="cta-card__input-box">
-                  <input
-                    class="cta-card__input"
-                    type="email"
-                    placeholder="youremail@address.com" />
-                  <button class="cta-card__button">
-                    <svg
-                      width="32"
-                      height="32"
-                      viewBox="0 0 32 32"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M6.66669 16H25.3334"
-                        stroke="#3D476D"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round" />
-                      <path
-                        d="M20 21.3333L25.3333 16"
-                        stroke="#3D476D"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round" />
-                      <path
-                        d="M20 10.6667L25.3333 16"
-                        stroke="#3D476D"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
-                  </button>
+                  <form
+                    id="quickQueryForm"
+                    class="cta-card__input-box"
+                    action="email/quick-query.php"
+                    method="post">
+                    <input
+                      class="cta-card__input"
+                      type="tel"
+                      name="phone"
+                      placeholder="Enter 10 Digit Mobile Number"
+                      maxlength="10"
+                      pattern="[0-9]{10}"
+                      required />
+
+                    <button type="submit" class="cta-card__button">
+                      <svg
+                        width="32"
+                        height="32"
+                        viewBox="0 0 32 32"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M6.66669 16H25.3334"
+                          stroke="#3D476D"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <path
+                          d="M20 21.3333L25.3333 16"
+                          stroke="#3D476D"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <path
+                          d="M20 10.6667L25.3333 16"
+                          stroke="#3D476D"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </svg>
+                    </button>
+                  </form>
+
+                  <div class="mt-2" id="quickQueryMessage"></div>
                 </div>
               </div>
             </div>
@@ -1044,5 +1057,6 @@
     <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/custom/script.js"></script>
   </body>
 </html>
