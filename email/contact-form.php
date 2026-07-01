@@ -20,9 +20,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 
-    $receiver_email = 'harsh.autowebbed@gmail.com';
+    $receiver_email = 'info@thekrishnagroup.co';
     $receiver_name  = 'Krishna Group';
-    $subject        = 'Contact Form Details';
+    $subject        = 'Website Contact Form Filled';
 
     /* ---------------------------
        Sanitize & Format Fields
@@ -62,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <table width='100%' style='max-width:600px;margin:auto;background:#fff;border-radius:10px'>
             <tr>
                 <td style='background:#a98e4e;padding:30px;color:#fff;text-align:center'>
-                    <h2 style='margin:0'>New Inquiry Received</h2>
+                    <h2 style='margin:0'>Contact Form Filled</h2>
                 </td>
             </tr>
             <tr>
@@ -106,6 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->setFrom('test@autowebbed.com', 'Website Enquiry');
         // $mail->addReplyTo($_POST['email'], $_POST['name'] ?? '');
         $mail->addAddress($receiver_email, $receiver_name);
+        $mail->addCC('diginmediaprivatelimited@gmail.com');
 
         $mail->isHTML(true);
         $mail->Subject = $subject;
