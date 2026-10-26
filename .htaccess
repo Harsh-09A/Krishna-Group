@@ -8,3 +8,12 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
 # END WordPress
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteRule ^krishna-elite\.html$ - [R=404,L,NC]
+    RewriteRule ^siddhivinayak-krishna\.html$ - [R=404,L,NC]
+    RewriteRule ^krishna-aurum\.html$ - [R=404,L,NC]
+    RewriteRule ^krishna-dharni\.html$ - [R=404,L,NC]
+</IfModule>

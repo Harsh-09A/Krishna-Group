@@ -3278,20 +3278,25 @@ label {
 
 .file-wrap .list-wrap li a {
   width: 128px;
-  height: 168px;
+  min-height: 168px;
+  height: auto;
+  box-sizing: border-box;
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 30px 20px 15px;
+  padding: 20px 12px 15px;
   border: 1.5px dashed var(--tg-primary-color);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1.5;
   color: var(--tg-secondary-color);
   flex-direction: column;
+  overflow-wrap: anywhere;
+  word-break: normal;
 }
 
 .file-wrap .list-wrap li a i {
